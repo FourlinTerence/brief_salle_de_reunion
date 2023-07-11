@@ -1,0 +1,151 @@
+* {
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+
+main {
+    min-height: 30rem;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #2d2c2b;
+    padding: 1rem 2rem;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    transition: 1s;
+    z-index: 2;
+}
+
+nav a {
+    text-decoration:none;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #00a698;
+}
+  
+nav input {
+    height: 3.9rem;
+    width: 12rem;
+    background: #f7a191;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    margin-right: 4rem;
+  }
+  
+  nav input:hover {
+    background-color: #00a698;
+  }
+  
+.premierePartie {
+    min-height: 22rem;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.847)),
+      url(image/Smart-Meeting-Room-banner-1024x320.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 15rem;
+  }
+  
+  .premierePartie p {
+    color: rgba(255,255,255,0.71);
+  }
+  
+  .deuxiemePartie {
+    min-height: 60rem;
+    background: #f9f9f9;
+    padding: 5rem 10% 0 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .deuxiemePartie .carteAvecBouton {
+    width: 90%;
+    height: 10rem;
+    margin-bottom: 3rem;
+  }
+
+  .carteAvecBoutonContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 10% 0 10%;
+  }
+  
+  .carteAvecBouton {
+    background: #ffffff;
+    min-height: 25rem;
+    margin: 0 4px;
+    width: 31%;
+    text-align: center;
+    transition: 0.6s;
+    padding: 0.2rem 0;
+  }
+  
+  .carteAvecBouton img {
+    width: 95%;
+    margin-top: 8px;
+  }
+  
+  .texteCarteAvecBouton {
+    
+    line-height: 1em;
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+    font-size: 1.5rem;
+  }
+  
+  .texteItalique {
+    line-height: 1em;
+    font-weight: 500;
+    margin: 1rem 0 1rem 0;
+    font-size: 0.8rem;
+    font-style : italic;
+  }
+  
+  .boutonCarte {
+    height: 2.5rem;
+    width: 7rem;
+    background: #f7a191;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    border: #f7a191;
+  }
+  
+  .carteAvecBouton:hover {
+    transform: translateY(-2rem);
+  }
+  
+  .carteAvecBouton:hover .boutonCarte {
+    background-color: #00a698;
+  }
+
+  .tableContainer {
+    min-height: 10rem;
+    padding: 1.5rem 10%;
+  }
+
+  footer {
+    background-color: #2d2c2b;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+    font-weight: bold;
+}
+  
